@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return <>
     <Head>
-      <title>Ninja List | Home</title>
+      <title> Climate Data Catalogue </title>
       <meta name="keywords" content="ninjas"/>
     </Head>
     <div>
@@ -18,7 +18,7 @@ provides the tools you need to explore, understand, and address the complex chal
  and take meaningful action in the face of climate uncertainty.
  </p>
       <p className={styles.text}>Explore the data items curated for the assessment of climate-related risks and opportunities in the financial sector.</p>
-      <Link href="/ninjas/" className={styles.btn}>
+      <Link href="/data/" className={styles.btn}>
         Explore Data Items
       </Link>
     </div>

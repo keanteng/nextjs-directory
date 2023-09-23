@@ -9,10 +9,12 @@ const Navbar = () => {
       </div>
       <Link href="/">Home</Link>
       <Link href="/about">About</Link>
+      <Link href="/browse">Browse</Link>
       <Link href="/data/">Data Catalogue</Link>
-      <Link href="/ninjas/">Data Catalogue1</Link>
     </nav>
   );
 }
  
 export default Navbar;
+
+// <Link href="/ninjas/">Data Catalogue1</Link> hide this page
