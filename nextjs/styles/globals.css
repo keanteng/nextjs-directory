@@ -62,3 +62,11 @@ footer {
   display: table;
   clear: both;
 }
+
+.column3 {
+  float: left;
+  text-align: center;
+  width: 50%;
+  column-gap: 40px;
+}
+

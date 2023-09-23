@@ -12,37 +12,14 @@ export default function Home() {
     <div class="row">
         <h1 className={styles.title}>Start Exploring</h1>
 
-        <div class="column2">
-            <Link href="/data/" className={styles1.single}>
-            <p>Climate-related disclosures</p>
-            </Link>
-            <Link href="/data/" className={styles1.single}>
-            <p>Exposure Quantification</p>
-            </Link>
-            <Link href="/data/" className={styles1.single}>
-            <p>Financial Stability Monitoring</p>
+        <div class="column3">
+            <Link href="/cases/" className={styles1.single}>
+            <p>By Use Cases</p>
             </Link>
         </div>
-        <div class="column2">
-            <Link href="/data/" className={styles1.single}>
-            <p>Investment and Lending Decsions</p>
-            </Link>
-            <Link href="/data/" className={styles1.single}>
-            <p>Macroeconomic Modelling</p>
-            </Link>
-            <Link href="/data/" className={styles1.single}>
-            <p>Product Development</p>
-            </Link>
-        </div>
-        <div class="column2">
-            <Link href="/data/" className={styles1.single}>
-            <p>Scenario Analysis</p>
-            </Link>
-            <Link href="/data/" className={styles1.single}>
-            <p>Stress Testing</p>
-            </Link>
-            <Link href="/data/" className={styles1.single}>
-            <p>CCPT Implementation</p>
+        <div class="column3">
+            <Link href="/metrics/" className={styles1.single}>
+            <p>By Metrics</p>
             </Link>
         </div>
 
