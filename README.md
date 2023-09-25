@@ -1,13 +1,29 @@
+![](https://img.shields.io/badge/logo-javascript-blue?logo=javascript)
+![Static Badge](https://img.shields.io/badge/HTML-8A2BE2)
+![Static Badge](https://img.shields.io/badge/CSS-green)
+![Static Badge](https://img.shields.io/badge/NextJs-black)
+
+
+# Introduction <!-- omit in toc -->
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+This project aims to create a website to house the data items for the Climate Data Catalogue. The website design is inspired by the [NGFS Directory](https://ngfs.dev.masdkp.io/). 
+
+Currently, the website does not provide functionality such as searching and filtering. However, all the data items are available on the application.
+
+**Table of Contents:**
+- [Getting Started](#getting-started)
+- [Learn More](#learn-more)
+- [Deploy on Vercel](#deploy-on-vercel)
+
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
+cd nextjs
 npm run dev
-# or
-yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
